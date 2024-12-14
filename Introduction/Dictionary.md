@@ -76,3 +76,8 @@ Hyperplane is purely mathematical, while decision boundary is contextual:
 ---
 
 </details>
+
+<details>
+  <summary>Margin</summary>
+  *In progress*
+</details>
