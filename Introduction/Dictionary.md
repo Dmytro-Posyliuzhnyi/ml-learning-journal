@@ -28,11 +28,13 @@ Feature vectors provide a standardized way to represent data points so that mach
 </details>
 
 <details>
-  <summary>Hyperplane</summary>
+  <summary>Hyperplane/Decision Boundary</summary>
 
 ### Hyperplane
 
-A **hyperplane** is a flat subspace in a higher-dimensional space that divides the space into two or more regions. In machine learning, hyperplanes are often used in algorithms to separate data points into different classes.
+*In linear classification algorithms the hyperplane is the same thing as decision boundary*
+
+A **hyperplane** is a flat subspace in a higher-dimensional space that divides the space into two or more regions. In machine learning, hyperplanes sometimes are the same thing as decision boundaries, and decision boundary is used in algorithms to separate data points into different classes.
 
 <img width="500" alt="Page 1" src="https://github.com/user-attachments/assets/717a5724-9631-4f6b-bfba-740429ed4b61">
 
@@ -64,6 +66,12 @@ The hyperplane separates the space into regions based on the sign of the equatio
 - $`w \cdot x + b < 0`$ on the other.
 
 </details>
+
+In non-linear models (e.g., Neural Networks, k-Nearest Neighbors) the decision boundary may not be a hyperplane - it could be a curved or irregular surface depending on the data and the model. For example a neural network might create a non-linear decision boundary that adapts to the data's complex shape.
+
+Hyperplane is purely mathematical, while decision boundary is contextual:
+- A hyperplane is always flat (linear) and mathematically defined.
+- A decision boundary can be linear (a hyperplane) or non-linear, depending on the model.
 
 ---
 
