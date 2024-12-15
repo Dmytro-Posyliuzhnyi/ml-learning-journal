@@ -102,3 +102,61 @@ The **margin** is the distance between the decision boundary (e.g., a hyperplane
 ---
 
 </details>
+
+<details>
+  <summary>Optimization</summary>
+
+**Optimization** is like the engine that makes machine learning work. At its core, it's all about finding the best values for a model's parameters (like weights and biases) so it performs well on a given task.
+
+</details>
+
+<details>
+  <summary>Linear Models</summary>
+
+### Linear Models
+
+Linear models are one of the simplest types of machine learning algorithms. These models make predictions by finding a straight-line (or hyperplane in higher dimensions) relationship between the input features and the output.
+
+---
+
+#### Advantages of Linear Models:
+- Easy to interpret (e.g., the coefficients show feature importance).
+- Computationally efficient and fast to train.
+- Works well when the relationship between features and the target is approximately linear.
+
+#### Disadvantages of Linear Models:
+- Struggles with non-linear relationships.
+- Sensitive to outliers unless regularization techniques are used.
+
+---
+
+### When to Use Linear Models:
+- When your data is linearly separable or has a roughly linear relationship.
+- When you need a quick, interpretable model.
+
+<img width="500" alt="Page 1" src="https://github.com/user-attachments/assets/f02e53a0-1c84-4640-97b0-3a369d9af74a">
+
+</details>
+
+<details>
+  <summary>Kernels</summary>
+
+### Kernels
+
+Kernels are mathematical functions that enable machine learning algorithms, like Support Vector Machines (SVMs), to handle **non-linear data**. They work by implicitly mapping the original data into a higher-dimensional space where a linear decision boundary can be used.
+
+<img width="500" alt="Page 1" src="https://github.com/user-attachments/assets/e0347f10-0552-4a22-81bc-438747522270">
+
+---
+
+#### Why Kernels Matter:
+- They allow algorithms like SVMs to create non-linear decision boundaries.
+- Kernels let you handle complex datasets without manually adding features or transforming data.
+
+---
+
+### When to Use Kernels:
+- When your data is not linearly separable in the original feature space.
+- When you suspect complex relationships between features but don’t want to explicitly define transformations.
+
+</details>
