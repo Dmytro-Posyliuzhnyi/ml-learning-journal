@@ -67,7 +67,7 @@
 
 <details>
   <summary>Classification Algorithms</summary>
-  
+
 ## Classification Algorithms
 
 **Classification algorithms** are a subset of machine learning algorithms used to assign a label or category to input data. They are widely used for tasks like spam detection, image recognition, medical diagnosis, etc.
@@ -94,9 +94,3 @@
 
 </details>
 
-<details>
-  <summary>Optimization</summary>
-
-**Optimization** is like the engine that makes machine learning work. At its core, it's all about finding the best values for a model's parameters (like weights and biases) so it performs well on a given task.
-
-</details>
