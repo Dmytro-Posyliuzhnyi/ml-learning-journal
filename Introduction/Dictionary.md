@@ -76,8 +76,29 @@ Hyperplane is purely mathematical, while decision boundary is contextual:
 ---
 
 </details>
+
 <details>
   <summary>Margin</summary>
-  
-  *In progress*
+
+### Margin
+
+The **margin** is the distance between the decision boundary (e.g., a hyperplane) and the closest data points from each class in a classification problem. It is a key concept in machine learning algorithms like **Support Vector Machines (SVMs)**.
+
+<img width="500" alt="Page 1" src="https://github.com/user-attachments/assets/3846f0ec-b7d7-4a03-806f-1ea83462147f">
+
+---
+
+#### Why Is Margin Important?
+
+1. **Generalization**:
+   - A larger margin often leads to better generalization, meaning the model performs better on unseen data.
+
+2. **Overfitting**:
+   - A small margin increases the risk of overfitting, where the model becomes too sensitive to the training data.
+
+3. **Robustness**:
+   - Models with larger margins are less sensitive to small perturbations in the data.
+
+---
+
 </details>
