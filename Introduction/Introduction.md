@@ -1,3 +1,7 @@
+
+<details>
+  <summary>Types of Machine Learning</summary>
+
 ## Types of Machine Learning
 
 ### 1. Supervised Learning
@@ -59,4 +63,40 @@
 
 <img width="500" alt="Page 1" src="https://github.com/user-attachments/assets/9c887f3b-4f6d-4bcb-888d-680a254bc7d8">
 
----
+</details>
+
+<details>
+  <summary>Classification Algorithms</summary>
+  
+## Classification Algorithms
+
+**Classification algorithms** are a subset of machine learning algorithms used to assign a label or category to input data. They are widely used for tasks like spam detection, image recognition, medical diagnosis, etc.
+
+<img width="500" alt="Page 1" src="https://github.com/user-attachments/assets/598627d5-9115-48bf-af04-36263dc3effa">
+
+### Key Concepts:
+
+1. **Decision Boundary**:
+   - A **decision boundary** is a surface that separates the feature space into regions corresponding to different classes.
+   - It can take various forms:
+     - **Linear (straight line or hyperplane):** Algorithms like Logistic Regression and Linear SVM.
+     - **Non-linear (curved):** Algorithms like Kernel SVM and Neural Networks.
+     - **Complex shapes:** Algorithms like Decision Trees and ensemble methods (e.g., Random Forests).
+   - The decision boundary defines the accuracy of the model by determining how well it separates classes in the dataset.
+
+2. **How Classification Algorithms Differ**:
+   - **Form of Decision Boundary:**
+     - Each algorithm uses a unique method to compute the decision boundary based on the training data.
+   - **Training Speed:**
+     - Some algorithms train quickly, while others take longer due to complexity.
+   - **Prediction Speed:**
+     - Algorithms also differ in how fast they make predictions.
+
+</details>
+
+<details>
+  <summary>Optimization</summary>
+
+**Optimization** is like the engine that makes machine learning work. At its core, it's all about finding the best values for a model's parameters (like weights and biases) so it performs well on a given task.
+
+</details>
