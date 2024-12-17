@@ -160,3 +160,9 @@ Kernels are mathematical functions that enable machine learning algorithms, like
 - When you suspect complex relationships between features but don’t want to explicitly define transformations.
 
 </details>
+
+<details>
+  <summary>Parameters vs Hyperparameters</summary>
+  <img width="500" alt="Page 1" src="https://github.com/user-attachments/assets/0335df3c-cbf7-44fe-8133-35154b988807">
+</details>
+
