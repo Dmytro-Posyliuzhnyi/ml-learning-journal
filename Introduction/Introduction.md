@@ -94,3 +94,26 @@
 
 </details>
 
+
+<details>
+  <summary>Regression Algorithms</summary>
+
+## Regression Algorithms in Machine Learning
+
+Regression algorithms are used in machine learning to predict continuous values. These could be numbers like prices, temperatures, or probabilities, or anything that changes smoothly along a scale. The goal is to find a pattern in the data and use it to make predictions for new inputs.
+
+### Difference from Classification:
+- Regression predicts a value on a continuous scale (e.g., 2.5, 300.75).
+- Classification predicts categories (e.g., "red," "green," or "blue").
+
+<img width="500" alt="Page 1" src="https://github.com/user-attachments/assets/19c1d4a1-a761-4995-84bc-a7bb85a94927">
+
+
+### Real-World Examples:
+- Estimating house prices based on size, location, and features.
+- Predicting future sales revenue from historical data.
+- Forecasting weather conditions like temperature or rainfall.
+
+</details>
+
+
