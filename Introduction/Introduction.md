@@ -116,4 +116,12 @@ Regression algorithms are used in machine learning to predict continuous values.
 
 </details>
 
+<details>
+  <summary>Model-Based vs. Instance-Based Learning</summary>
+
+<img width="500" alt="Page 1" src="https://github.com/user-attachments/assets/7179ae8e-e5f4-4002-ab5a-22ea05e403d1">
+
+Model-based learning focuses on creating a summarized representation (model) of the data, while instance-based learning relies on the training data directly to make predictions.
+
+</details>
 
