@@ -183,3 +183,19 @@ The Maximal Margin Classifier is a machine learning method used to classify data
     <img width="500" alt="Page 1" src="https://github.com/user-attachments/assets/48a59db0-799c-44b0-8eaf-014655b403da">
 
 </details>
+
+
+<details>
+<summary>Bias/Variance Trade-off</summary>
+
+The Bias/Variance trade-off is the balance between a model’s ability to generalize to unseen data and its ability to fit the training data:
+
+- **Bias**: Error from oversimplified models that underfit the data (e.g., missing important patterns).
+- **Variance**: Error from overly complex models that overfit the training data (e.g., capturing noise as patterns).
+
+### Key Idea:
+- High bias → Underfitting (poor performance on training and test data).
+- High variance → Overfitting (good training performance but poor generalization).
+- The goal is to find a balance for optimal performance on both.
+  
+</details>
