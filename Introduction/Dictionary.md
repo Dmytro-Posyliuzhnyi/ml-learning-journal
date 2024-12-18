@@ -166,3 +166,20 @@ Kernels are mathematical functions that enable machine learning algorithms, like
   <img width="500" alt="Page 1" src="https://github.com/user-attachments/assets/0335df3c-cbf7-44fe-8133-35154b988807">
 </details>
 
+<details>
+<summary>Maximal Margin Classifier</summary>
+
+The Maximal Margin Classifier is a machine learning method used to classify data by finding the hyperplane (or line in 2D) that separates two groups of points. It places the hyperplane **right in the middle** between the two closest points from each group (called support vectors) while maximizing the distance (margin) between the hyperplane and these points.
+
+<img width="500" alt="Page 1" src="https://github.com/user-attachments/assets/1aa4f08a-a3b1-4909-a783-0c6189ba3032">
+
+### Key Points:
+- **Goal**: Place the hyperplane exactly in the middle of the support vectors to create the largest possible margin.
+- **Works Best When**:
+  - Data is perfectly separable.
+  - There are no outliers or noise.
+- **Limitations**:
+  - It performs poorly when data is noisy or contains outliers, as these can shrink the margin and shift the hyperplane unfavorably.
+    <img width="500" alt="Page 1" src="https://github.com/user-attachments/assets/48a59db0-799c-44b0-8eaf-014655b403da">
+
+</details>
