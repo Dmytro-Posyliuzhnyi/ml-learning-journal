@@ -270,3 +270,11 @@ Where:
 </details>
 
 
+<details>
+  <summary>Overfitting</summary>
+    Overfitting happens in machine learning when a model learns the training data too well, including its noise and irrelevant details, instead of capturing the   
+    general patterns. As a result, the model performs well on the training data but poorly on unseen (test or validation) data.
+  <img width="500" alt="Page 1" src="https://github.com/user-attachments/assets/a03fa3ce-2778-4219-93c1-1a01d4446020">
+</details>
+
+
