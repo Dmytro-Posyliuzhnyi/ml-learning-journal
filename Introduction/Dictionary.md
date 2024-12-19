@@ -199,3 +199,15 @@ The Bias/Variance trade-off is the balance between a model’s ability to genera
 - The goal is to find a balance for optimal performance on both.
   
 </details>
+
+<details>
+<summary>Objective/Objective Function</summary>
+
+In math, an objective function (or simply an objective) is the mathematical expression we want to either minimize or maximize during optimization.
+
+For example:
+- In economics, you might maximize profit.
+- In engineering, you might minimize cost or error.
+- In machine learning, you might minimize prediction error to make a model more accurate.
+  
+</details>
