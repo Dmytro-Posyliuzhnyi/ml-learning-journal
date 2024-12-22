@@ -278,3 +278,21 @@ Where:
 </details>
 
 
+<details>
+  <summary>Gradient Descent</summary>
+  <br/>
+    Gradient Descent is an optimization algorithm used to minimize a function by iteratively moving toward the function's lowest point. It is widely used in machine 
+    learning, especially for training models by optimizing their parameters, such as in linear regression, logistic regression, and neural networks.
+
+  <br/>
+  <br/>
+  
+  ***The Goal***
+
+  The goal of gradient descent is to find the minimum value of a function, often called the loss function or cost function, which measures how well a machine learning    model fits the data. For example:
+  - In linear regression, the cost function is the mean squared error.
+  - In classification, it could be the log-loss or cross-entropy loss.
+  By minimizing the cost function, we improve the model's performance.
+</details>
+
+
