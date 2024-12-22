@@ -5,7 +5,7 @@ Linear regression is used to predict the value of a variable based on the value 
 The variable you are using to predict the other variable's value is called the independent variable. It works by finding the best-fit line (or hyperplane for multiple variables) 
 that shows the relationship between these variables.
 
-<img width="500" alt="Page 1" src="https://github.com/user-attachments/assets/9bebe1ac-cd79-4575-a837-c73bf364875d">
+<img width="500" alt="Page 1" src="https://github.com/user-attachments/assets/63b4f083-192e-40fb-a45c-71b26210cca6">
 
 For simple linear regression (one feature) the equation look in the following way: $`y = wx + b`$, where:
   - $`y`$: Predicted value (output)
