@@ -25,3 +25,9 @@ The phrase "until convergence" means the process continues until the model's par
 - The gradients become very close to zero.
 
 At this point, the model has found the best parameters (or is very close to it), and further updates don't improve performance significantly.
+
+## Implementation
+
+In [Gradient Descent.py](https://github.com/Dmytro-Posyliuzhnyi/ml-learning-journal/blob/main/Introduction/Code/Gradient%20Descent.py) I've included a basic implementation of gradient descent that tries to find the best model parameters to predict sales based on spending on radio advertising. I used Jupyter to execute it. The dataset was found on the wiki for the book "Hundred Page Machine Learning".
+
+<img width="500" alt="Page 1" src="https://github.com/user-attachments/assets/f66cfb4a-5ecd-4eab-8d1d-10df3765b239">
