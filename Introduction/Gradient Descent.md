@@ -26,6 +26,11 @@ The phrase "until convergence" means the process continues until the model's par
 
 At this point, the model has found the best parameters (or is very close to it), and further updates don't improve performance significantly.
 
+## Types of Gradient Descent
+
+Gradient descent can be very sensitive to choice of the learning rate $`\alpha`$. It can be also slow for large datasets. Fortunately, there are several improved versions of gradient descent. Typical gradient descent uses the entire training set to compute the gradients, which can be computationally expensive for large datasets.
+**Stochastic Gradient Descent (SGD)**, on the other hand, uses only a single example or a small subset of the training set to compute the gradients, which makes it more computationally efficient. **Mini-Batch Gradient Descent** strikes a balance between **Gradient Descent** and **SGD** by computing the gradient based on a **small subset of data points** (mini-batch). There are a lot of other improvements of **GD** which are out of the scope of this introduction notes.
+
 ## Implementation
 
 In [Gradient Descent.py](https://github.com/Dmytro-Posyliuzhnyi/ml-learning-journal/blob/main/Introduction/Code/Gradient%20Descent.py) I've included a basic implementation of gradient descent that tries to find the best model parameters to predict sales based on spending on radio advertising. I used Jupyter to execute it. The dataset was found on the wiki for the book "Hundred Page Machine Learning".
