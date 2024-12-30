@@ -60,7 +60,6 @@ def plot_income_category_histogram(dataset):
 
 
 create_income_category_column()
-print(housing.info())
 strat_train_set, strat_test_set = train_test_split(housing, test_size=0.2, stratify=housing["income_cat"],
                                                    random_state=42)
 
@@ -122,9 +121,13 @@ def create_additional_attributes():
     housing["people_per_house"] = housing["population"] / housing["households"]
 
 
+# Remove labels from training set
 housing = strat_train_set.drop("median_house_value", axis=1)
+
+# Create a separate set with labels
 housing_labels = strat_train_set["median_house_value"].copy()
 
+# Fill in the missing values with median of each attribute
 imputer = SimpleImputer(strategy="median")
 housing_num = housing.select_dtypes(include=[np.number])
 imputer.fit(housing_num)
