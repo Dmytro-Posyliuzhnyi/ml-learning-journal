@@ -1,5 +1,7 @@
 from pathlib import Path
 from sklearn.model_selection import train_test_split
+from sklearn.impute import SimpleImputer
+from pandas.plotting import scatter_matrix
 import matplotlib.pyplot as plt
 import pandas as pd
 import tarfile
@@ -58,9 +60,72 @@ def plot_income_category_histogram(dataset):
 
 
 create_income_category_column()
-
+print(housing.info())
 strat_train_set, strat_test_set = train_test_split(housing, test_size=0.2, stratify=housing["income_cat"],
                                                    random_state=42)
 
 for set_ in (strat_train_set, strat_test_set):
     set_.drop("income_cat", axis=1, inplace=True)
+
+housing = strat_train_set.copy()
+
+
+def scatterplot_housing_prices():
+    filename = "california.png"
+    if not (IMAGES_PATH / filename).is_file():
+        homl3_root = "https://github.com/ageron/handson-ml3/raw/main/"
+        url = homl3_root + "images/end_to_end_project/" + filename
+        print("Downloading", filename)
+        urllib.request.urlretrieve(url, IMAGES_PATH / filename)
+
+    housing_renamed = housing.rename(columns={
+        "latitude": "Latitude", "longitude": "Longitude",
+        "population": "Population",
+        "median_house_value": "Median house value (ᴜsᴅ)"})
+    housing_renamed.plot(
+        kind="scatter", x="Longitude", y="Latitude",
+        s=housing_renamed["Population"] / 100, label="Population",
+        c="Median house value (ᴜsᴅ)", cmap="jet", colorbar=True,
+        legend=True, sharex=False, figsize=(10, 7))
+
+    california_img = plt.imread(IMAGES_PATH / filename)
+    axis = -124.55, -113.95, 32.45, 42.05
+    plt.axis(axis)
+    plt.imshow(california_img, extent=axis)
+
+    save_fig("california_housing_prices_plot")
+    plt.show()
+
+
+def find_correlation(column_name):
+    corr_matrix = housing.corr(numeric_only=True)
+    print(corr_matrix[column_name].sort_values(ascending=False))
+
+
+def scatter_matrix_plot():
+    attributes = ["median_house_value", "median_income", "total_rooms", "housing_median_age"]
+    scatter_matrix(housing[attributes], figsize=(12, 8))
+    save_fig("scatter_matrix_plot")
+    plt.show()
+
+
+def plot_specific_correlation_scatter_matrix(category1, category2):
+    housing.plot(kind="scatter", x=category1, y=category2,
+                 alpha=0.1, grid=True)
+    save_fig(category1 + "_vs_" + category2)
+    plt.show()
+
+
+def create_additional_attributes():
+    housing["rooms_per_house"] = housing["total_rooms"] / housing["households"]
+    housing["bedrooms_ratio"] = housing["total_bedrooms"] / housing["total_rooms"]
+    housing["people_per_house"] = housing["population"] / housing["households"]
+
+
+housing = strat_train_set.drop("median_house_value", axis=1)
+housing_labels = strat_train_set["median_house_value"].copy()
+
+imputer = SimpleImputer(strategy="median")
+housing_num = housing.select_dtypes(include=[np.number])
+imputer.fit(housing_num)
+X = imputer.transform(housing_num)
