@@ -1,6 +1,7 @@
 from pathlib import Path
 from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import OneHotEncoder
 from pandas.plotting import scatter_matrix
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -132,3 +133,8 @@ imputer = SimpleImputer(strategy="median")
 housing_num = housing.select_dtypes(include=[np.number])
 imputer.fit(housing_num)
 X = imputer.transform(housing_num)
+
+# Transform ocean_proximity into numerical values
+housing_cat = housing[["ocean_proximity"]]
+one_hot_encoder = OneHotEncoder()
+housing_cat_encoded = one_hot_encoder.fit_transform(housing_cat)
