@@ -138,3 +138,13 @@ X = imputer.transform(housing_num)
 housing_cat = housing[["ocean_proximity"]]
 one_hot_encoder = OneHotEncoder()
 housing_cat_encoded = one_hot_encoder.fit_transform(housing_cat)
+
+# During the next study session I will need to dig more into feature scaling and transformation
+
+# Normalization
+min_max_scaler = MinMaxScaler(feature_range=(-1, 1))
+housing_num_min_max_scaled = min_max_scaler.fit_transform(housing_num)
+
+# Standardization
+std_scaler = StandardScaler()
+housing_num_std_scaled = std_scaler.fit_transform(housing_num)
