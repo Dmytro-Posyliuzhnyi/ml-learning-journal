@@ -2,6 +2,8 @@ from pathlib import Path
 from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OneHotEncoder
+from sklearn.preprocessing import MinMaxScaler, StandardScaler
+from sklearn.metrics.pairwise import rbf_kernel
 from pandas.plotting import scatter_matrix
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -67,6 +69,46 @@ def visualize_feature_transformation(data, feature, transformed_data):
     plt.ylabel("Frequency")
 
     plt.tight_layout()
+    plt.show()
+
+
+def visualize_single_feature(data, feature):
+    plt.figure(figsize=(12, 6))
+
+    # Plot original feature
+    plt.hist(data[feature], bins=50, color='blue', alpha=0.7)
+    plt.title(f"'{feature}' Distribution")
+    plt.xlabel(feature)
+    plt.ylabel("Frequency")
+
+    plt.tight_layout()
+    plt.show()
+
+
+def visualize_gaussian_rbf_feature():
+    ages = np.linspace(housing["housing_median_age"].min(),
+                       housing["housing_median_age"].max(),
+                       500).reshape(-1, 1)
+    gamma1 = 0.1
+    gamma2 = 0.03
+    rbf1 = rbf_kernel(ages, [[35]], gamma=gamma1)
+    rbf2 = rbf_kernel(ages, [[35]], gamma=gamma2)
+
+    fig, ax1 = plt.subplots()
+
+    ax1.set_xlabel("Housing median age")
+    ax1.set_ylabel("Number of districts")
+    ax1.hist(housing["housing_median_age"], bins=50)
+
+    ax2 = ax1.twinx()  # create a twin axis that shares the same x-axis
+    color = "blue"
+    ax2.plot(ages, rbf1, color=color, label="gamma = 0.10")
+    ax2.plot(ages, rbf2, color=color, label="gamma = 0.03", linestyle="--")
+    ax2.tick_params(axis='y', labelcolor=color)
+    ax2.set_ylabel("Age similarity", color=color)
+
+    plt.legend(loc="upper left")
+    save_fig("age_similarity_plot")
     plt.show()
 
 
