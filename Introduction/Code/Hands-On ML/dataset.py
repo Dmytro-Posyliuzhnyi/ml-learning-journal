@@ -214,3 +214,6 @@ housing_num_min_max_scaled = min_max_scaler.fit_transform(housing_num)
 # Standardization
 std_scaler = StandardScaler()
 housing_num_std_scaled = std_scaler.fit_transform(housing_num)
+
+# Later on I will need to move the functions responsible for visualization to the separate file. 
+# This file should be renamed and be responsible for combination and orchestration of different components of the learning process.
