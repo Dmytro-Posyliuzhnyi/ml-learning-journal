@@ -45,6 +45,29 @@ def visualize_dataset():
     save_fig("attribute_histogram_plots")
     plt.show()
 
+def visualize_feature_transformation(data, feature, transformed_data):
+    # How to use the function
+    # transformed_population = np.log(housing['population'])
+    # visualize_feature_transformation(housing, 'population', transformed_population)
+
+    plt.figure(figsize=(12, 6))
+
+    # Plot original feature
+    plt.subplot(1, 2, 1)
+    plt.hist(data[feature], bins=50, color='blue', alpha=0.7)
+    plt.title(f"Original '{feature}' Distribution")
+    plt.xlabel(feature)
+    plt.ylabel("Frequency")
+
+    # Plot transformed feature
+    plt.subplot(1, 2, 2)
+    plt.hist(transformed_data, bins=50, color='green', alpha=0.7)
+    plt.title(f"Transformed '{feature}' Distribution")
+    plt.xlabel(feature)
+    plt.ylabel("Frequency")
+
+    plt.tight_layout()
+    plt.show()
 
 def create_income_category_column():
     housing["income_cat"] = pd.cut(housing["median_income"],
