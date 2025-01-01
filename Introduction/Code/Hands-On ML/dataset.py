@@ -69,6 +69,7 @@ def visualize_feature_transformation(data, feature, transformed_data):
     plt.tight_layout()
     plt.show()
 
+
 def create_income_category_column():
     housing["income_cat"] = pd.cut(housing["median_income"],
                                    bins=[0., 1.5, 3.0, 4.5, 6., np.inf],
