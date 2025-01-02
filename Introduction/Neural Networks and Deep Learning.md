@@ -27,5 +27,5 @@ giving it a multi-layered architecture..
 <img width="500" alt="Page 1" src="https://github.com/user-attachments/assets/498c72da-5943-4409-b60e-91d9ca2cbfc9">
 
 ### Current State
-I plan to add more detailed information about, Neural Networks but for now, I'm working on developing a stronger intuition behind neural networks 
+I plan to add more detailed information on Neural Networks but for now, I'm working on developing a stronger intuition behind NN
 and their mathematical internals.
