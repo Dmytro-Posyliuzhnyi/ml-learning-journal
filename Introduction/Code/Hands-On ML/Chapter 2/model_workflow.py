@@ -43,5 +43,3 @@ housing_labels = strat_train_set["median_house_value"].copy()
 
 preprocessing_pipeline = get_preprocessing_pipeline()
 housing_prepared = preprocessing_pipeline.fit_transform(housing)
-print(housing_prepared.shape)
-print(preprocessing_pipeline.get_feature_names_out())
