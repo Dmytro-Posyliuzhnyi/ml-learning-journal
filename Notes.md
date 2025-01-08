@@ -1,5 +1,15 @@
 
-*Date: 4 January 2025*
+*Date: January 8, 2025*
+
+*Time: 11:02 PM*
+
+Today, I finished Chapter 3. It focused on classification, and we built a model using the MNIST dataset. There was a lot of information about different performance metrics for the model, as well as experimentation with various algorithms and visualizations of the metrics. 
+
+The next chapter is about the internals of training models. I've already been exploring the internals of some algorithms in the *Hundred-Page Machine Learning* book, and for some of them, I was able to gain a really solid mathematical understanding. Let's see what will be in this book.
+
+---
+
+*Date: January 4, 2025*
 
 *Time: 02:22 AM*
 
