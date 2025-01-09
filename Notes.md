@@ -1,4 +1,12 @@
 
+*Date: January 9, 2025*
+
+*Time: 9:56 PM*
+
+Today, I started Chapter 4 as I planned yesterday. I noted some basic information on the **normal equation**, but the book mentioned that the *Linear Regression* class in *scikit-learn* uses the **Least Squares** function for optimization because it's more efficient. I won't lie - I don’t fully understand it yet. First of all, I need to grasp the difference between **least squared error**, **mean squared error**, and other functions I've learned about that sound similar to me. Also, I need to understand whether **Least Squares** is a *closed-form* solution and why it's more efficient than the normal equation.
+
+---
+
 *Date: January 8, 2025*
 
 *Time: 11:02 PM*
