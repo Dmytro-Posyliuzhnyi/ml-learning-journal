@@ -1,4 +1,12 @@
 
+*Date: January 10, 2025*
+
+*Time: 10:02 PM*
+
+So yesterday I was struggling to get the intuition behind the *normal equation*, *ordinary least squares*, and how *LinearRegression* in *scikit-learn* is connected to all of that. Today, I was finally able to connect the different concepts in my mind, and I explained it in [5. Performance Measure](https://github.com/Dmytro-Posyliuzhnyi/ml-learning-journal/blob/main/Introduction/5.%20Performance%20Measure.md) file. I'm actually excited when something clicks in my mind, and it proves what I've been talking about in my math notes: that with consistency, all misunderstandings disappear, and gathering as much information as possible helps to connect things and develop a better intuition.
+
+---
+
 *Date: January 9, 2025*
 
 *Time: 9:56 PM*
