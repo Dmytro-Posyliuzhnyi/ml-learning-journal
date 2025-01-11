@@ -9,6 +9,10 @@ Improved my understanding of *gradient descent* and took some notes on *batch gr
 
 Took notes on *stochastic gradient descent* and *mini-batch gradient descent*.
 
+*Time: 3:03 PM*
+
+Took notes on *polynomial regression*.
+
 ---
 
 *Date: January 10, 2025*
