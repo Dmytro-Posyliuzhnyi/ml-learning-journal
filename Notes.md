@@ -17,6 +17,12 @@ Took notes on *polynomial regression*.
 
 I am having some difficulties getting the intuition behind the *learning curves*. I will take a short break and then get back to brainstorming.
 
+*Time: 9:48 PM*
+
+Took notes on *learning curves*. Understood them well enough. Seems like I was just tired. 
+
+After Chapter 4 I want to start a pet project, to sum up what I've learned so far. Most likely I will focus on regression related problem.  
+
 ---
 
 *Date: January 10, 2025*
