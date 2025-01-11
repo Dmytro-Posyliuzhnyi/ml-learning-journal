@@ -13,6 +13,10 @@ Took notes on *stochastic gradient descent* and *mini-batch gradient descent*.
 
 Took notes on *polynomial regression*.
 
+*Time: 5:00 PM*
+
+I am having some difficulties getting the intuition behind the *learning curves*. I will take a short break and then get back to brainstorming.
+
 ---
 
 *Date: January 10, 2025*
