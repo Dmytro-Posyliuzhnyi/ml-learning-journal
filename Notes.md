@@ -1,9 +1,13 @@
 
 *Date: January 11, 2025*
 
-*Time: 00:42 PM*
+*Time: 00:42 AM*
 
 Improved my understanding of *gradient descent* and took some notes on *batch gradient descent*.
+
+*Time: 11:56 AM*
+
+Took notes on *stochastic gradient descent* and *mini-batch gradient descent*.
 
 ---
 
