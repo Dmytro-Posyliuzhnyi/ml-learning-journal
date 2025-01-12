@@ -9,6 +9,10 @@ Learned more about regularization. Specifically about *L2* regularization (Ridge
 
 Added notes on *Lasso* and *Elastic Net Regression*. I noticed that recently I've been copying a lot of notes from books, which feels like "notes for the sake of notes." I should avoid this approach and focus on gaining a deeper intuition behind what I learn, and only then explain it in my own words.
 
+*Time: 8:39 PM*
+
+Added notes on *early stopping*. The next topic in this chapter is on *Logistic Regression*. I've got a nice idea for the pet project I'm gonna create after this chapter to retain information I've learned.
+
 ---
 
 *Date: January 11, 2025*
