@@ -5,6 +5,10 @@
 
 Learned more about regularization. Specifically about *L2* regularization (Ridge regression). Explanation that helped me to get intuition behind *L2* regularization: [Overfitting: L2 regularization](https://developers.google.com/machine-learning/crash-course/overfitting/regularization)
 
+*Time: 3:05 PM*
+
+Added notes on *Lasso* and *Elastic Net Regression*. I noticed that recently I've been copying a lot of notes from books, which feels like "notes for the sake of notes." I should avoid this approach and focus on gaining a deeper intuition behind what I learn, and only then explain it in my own words.
+
 ---
 
 *Date: January 11, 2025*
