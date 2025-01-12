@@ -1,4 +1,12 @@
 
+*Date: January 12, 2025*
+
+*Time: 1:25 PM*
+
+Learned more about regularization. Specifically about *L2* regularization (Ridge regression). Explanation that helped me to get intuition behind *L2* regularization: [Overfitting: L2 regularization](https://developers.google.com/machine-learning/crash-course/overfitting/regularization)
+
+---
+
 *Date: January 11, 2025*
 
 *Time: 00:42 AM*
