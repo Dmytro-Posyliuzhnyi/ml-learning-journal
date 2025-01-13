@@ -1,4 +1,12 @@
 
+*Date: January 13, 2025*
+
+*Time: 10:16 PM*
+
+Today, I finished Chapter 4. The last couple of pages were related to *Logistic Regression*. As I already mentioned, before starting Chapter 5, I will try to implement my own regression model. Yesterday, I mentioned that I had an idea, but I decided it would not be suitable at this point for learning purposes. So, most likely, I will just search for a publicly available dataset that I like. 
+
+---
+
 *Date: January 12, 2025*
 
 *Time: 1:25 PM*
